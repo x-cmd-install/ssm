@@ -1,0 +1,59 @@
+about:
+  description: A fast, keyboard-driven TUI that makes your existing ~/.ssh/config delightful to use at fleet scale.
+  license: MIT
+  homepage: 
+  head: 0d901b7
+  archived: false
+  latestVersion: 2.6.0
+  collectedAt: 2026-09-02T04:22:24Z
+timeline:
+  created: 2025-04-12
+  lastCommit: 2026-08-31
+  lastRelease: 2026-06-05
+popularity:
+  star: 113
+  watcher: 3
+  fork: 7
+  release: 31
+  contributor: 3
+  pullRequest: 37
+  issue: 19
+language:
+  Go: 195065
+  Shell: 12335
+  Makefile: 3580
+  Nix: 1147
+totalLine: 212127
+recent:
+  last30d:
+    since: 2026-08-03
+    release: 0
+    mergedPR: 22
+    openPR: 2
+    closedIssue: 0
+    openIssue: 0
+    commit: 21
+  last90d:
+    since: 2026-06-04
+    release: 1
+    mergedPR: 61
+    openPR: 4
+    closedIssue: 0
+    openIssue: 0
+    commit: 61
+  last180d:
+    since: 2026-03-06
+    release: 17
+    mergedPR: 82
+    openPR: 5
+    closedIssue: 2
+    openIssue: 2
+    commit: 274
+  last360d:
+    since: 2025-09-07
+    release: 17
+    mergedPR: 82
+    openPR: 5
+    closedIssue: 2
+    openIssue: 2
+    commit: 274
