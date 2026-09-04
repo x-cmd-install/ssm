@@ -7,7 +7,7 @@ about:
   head: 7806c61
   archived: false
   latestVersion: 2.6.0
-  collectedAt: 2026-09-04T19:29:33Z
+  collectedAt: 2026-09-04T21:03:47Z
 timeline:
   created: 2025-04-12
   lastCommit: 2026-09-04
@@ -83,6 +83,39 @@ total:
   openIssue: 7
   commit: 489
 ---
+path: /home/runner/.x-repo/github.com/lfaoro/ssm
+collectedAt: 2026-09-04T21:03:49Z
+loc:
+  Go:
+    code: 6667
+    comments: 385
+    blanks: 1103
+    files: 31
+  Sh:
+    code: 410
+    comments: 27
+    blanks: 61
+    files: 4
+  Makefile:
+    code: 107
+    comments: 9
+    blanks: 30
+    files: 2
+  Nix:
+    code: 36
+    comments: 0
+    blanks: 3
+    files: 1
+  Markdown:
+    code: 0
+    comments: 606
+    blanks: 202
+    files: 6
+total:
+  code: 7257
+  comments: 1033
+  blanks: 1401
+  files: 44
 ---
 date: "2026-09-04T06:09:47Z"
 repo:
