@@ -12,6 +12,28 @@ A fast, keyboard-driven TUI that makes your existing ~/.ssh/config delightful to
 x install ssm
 ```
 
+## Code insight
+
+Total: **7,220** lines of code across **44** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Go | 6,667 | 385 | 1,103 | 31 |
+| Sh | 410 | 27 | 61 | 4 |
+| Makefile | 107 | 9 | 30 | 2 |
+| Nix | 36 | 0 | 3 | 1 |
+| Markdown | 0 | 606 | 202 | 6 |
+
+## OpenSSF Scorecard
+
+Overall score: **7.9 / 10**
+
+Lowest-scoring checks:
+
+- **Code-Review** (0/10) — Found 0/1 approved changesets -- score normalized to 0
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Pinned-Dependencies** (4/10) — dependency not pinned by hash detected -- score normalized to 4
+
 ## Source
 
 - **Upstream**: <https://github.com/lfaoro/ssm>
@@ -22,6 +44,25 @@ x install ssm
 - **Latest**: `2.6.0` (2026-06-05)
 - **Last commit**: 2026-09-07
 - **Assets in release**: 24
+
+## Popularity
+
+- **Stars**: 113 · **Forks**: 7 · **Open issues**: 19 · **Contributors**: 3
+
+## Totals (cumulative)
+
+- **Releases**: 31 · **Merged PRs**: 90 · **Open PRs**: 3 · **Closed issues**: 12 · **Open issues**: 7 · **Commits**: 490
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 19 | 3 | 0 | 0 | 20 |
+| last60d | 2026-07-12 | 0 | 42 | 3 | 0 | 0 | 35 |
+| 90d | 2026-06-12 | 0 | 59 | 3 | 0 | 0 | 61 |
+| last180d | 2026-03-14 | 17 | 83 | 3 | 2 | 2 | 276 |
+| 360d | 2025-09-15 | 17 | 83 | 3 | 2 | 2 | 276 |
+| last720d | 2024-09-20 | 31 | 90 | 3 | 12 | 7 | 490 |
 
 ## Release assets
 
@@ -52,43 +93,17 @@ x install ssm
 | [ssm_2.6.0_openbsd_x86_64.tar.gz](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_openbsd_x86_64.tar.gz) | 10.9 MiB | `native/linux/x64` |
 | [ssm_2.6.0_openbsd_x86_64.tar.gz.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_openbsd_x86_64.tar.gz.asc) | 228 B | `other` |
 
-## Popularity
+## Distribution status
 
-- **Stars**: 113 · **Forks**: 7 · **Open issues**: 19 · **Contributors**: 3
+Reported by **37** distros on [repology.org](https://repology.org/project/ssm). **1** are ✅ on the latest upstream release, **36** are ⚠️ on an older version.
 
-## Totals (cumulative)
-
-- **Releases**: 31 · **Merged PRs**: 90 · **Open PRs**: 3 · **Closed issues**: 12 · **Open issues**: 7 · **Commits**: 490
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 19 | 3 | 0 | 0 | 20 |
-| 90d | 2026-06-12 | 0 | 59 | 3 | 0 | 0 | 61 |
-| 360d | 2025-09-15 | 17 | 83 | 3 | 2 | 2 | 276 |
-
-## Code size
-
-Total: **7,220** lines of code across **44** files in the top 5 languages.
-
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Go | 6,667 | 385 | 1,103 | 31 |
-| Sh | 410 | 27 | 61 | 4 |
-| Makefile | 107 | 9 | 30 | 2 |
-| Nix | 36 | 0 | 3 | 1 |
-| Markdown | 0 | 606 | 202 | 6 |
-
-## OpenSSF Scorecard
-
-Overall score: **7.9 / 10**
-
-Lowest-scoring checks:
-
-- **Code-Review** (0/10) — Found 0/1 approved changesets -- score normalized to 0
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Pinned-Dependencies** (4/10) — dependency not pinned by hash detected -- score normalized to 4
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.4.0` | ⚠️ outdated |
+| Debian 14 | `1.4.0` | ⚠️ outdated |
+| Debian 13 | `1.4.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.4.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.4.0` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -99,4 +114,4 @@ Install metadata for ssm lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:00:30Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T20:12:37Z._
