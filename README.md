@@ -22,7 +22,35 @@ x install ssm
 - **Latest**: `2.6.0` (2026-06-05)
 - **Last commit**: 2026-09-07
 - **Assets in release**: 24
-- **Published**: 2026-06-05T12:31:50Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [ssm_2.6.0_checksums.txt](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_checksums.txt) | 1.0 KiB | `other` |
+| [ssm_2.6.0_checksums.txt.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_checksums.txt.asc) | 228 B | `other` |
+| [ssm_2.6.0_darwin_all.tar.gz](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_darwin_all.tar.gz) | 21.7 MiB | `native/darwin/x64` |
+| [ssm_2.6.0_darwin_all.tar.gz.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_darwin_all.tar.gz.asc) | 228 B | `native/darwin/x64` |
+| [ssm_2.6.0_freebsd_arm64.tar.gz](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_freebsd_arm64.tar.gz) | 10.0 MiB | `native/linux/arm64` |
+| [ssm_2.6.0_freebsd_arm64.tar.gz.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_freebsd_arm64.tar.gz.asc) | 228 B | `other` |
+| [ssm_2.6.0_freebsd_x86_64.tar.gz](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_freebsd_x86_64.tar.gz) | 10.9 MiB | `native/linux/x64` |
+| [ssm_2.6.0_freebsd_x86_64.tar.gz.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_freebsd_x86_64.tar.gz.asc) | 228 B | `other` |
+| [ssm_2.6.0_linux_amd64.deb](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_amd64.deb) | 10.9 MiB | `native/linux/x64` |
+| [ssm_2.6.0_linux_amd64.deb.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_amd64.deb.asc) | 228 B | `native/linux/x64` |
+| [ssm_2.6.0_linux_amd64.rpm](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_amd64.rpm) | 10.9 MiB | `native/linux/x64` |
+| [ssm_2.6.0_linux_amd64.rpm.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_amd64.rpm.asc) | 228 B | `native/linux/x64` |
+| [ssm_2.6.0_linux_arm64.deb](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_arm64.deb) | 10.0 MiB | `native/linux/arm64` |
+| [ssm_2.6.0_linux_arm64.deb.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_arm64.deb.asc) | 228 B | `native/linux/arm64` |
+| [ssm_2.6.0_linux_arm64.rpm](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_arm64.rpm) | 10.0 MiB | `native/linux/arm64` |
+| [ssm_2.6.0_linux_arm64.rpm.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_arm64.rpm.asc) | 228 B | `native/linux/arm64` |
+| [ssm_2.6.0_linux_arm64.tar.gz](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_arm64.tar.gz) | 10.0 MiB | `native/linux/arm64` |
+| [ssm_2.6.0_linux_arm64.tar.gz.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_arm64.tar.gz.asc) | 228 B | `native/linux/arm64` |
+| [ssm_2.6.0_linux_x86_64.tar.gz](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_x86_64.tar.gz) | 10.9 MiB | `native/linux/x64` |
+| [ssm_2.6.0_linux_x86_64.tar.gz.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_x86_64.tar.gz.asc) | 228 B | `native/linux/x64` |
+| [ssm_2.6.0_openbsd_arm64.tar.gz](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_openbsd_arm64.tar.gz) | 10.0 MiB | `native/linux/arm64` |
+| [ssm_2.6.0_openbsd_arm64.tar.gz.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_openbsd_arm64.tar.gz.asc) | 228 B | `other` |
+| [ssm_2.6.0_openbsd_x86_64.tar.gz](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_openbsd_x86_64.tar.gz) | 10.9 MiB | `native/linux/x64` |
+| [ssm_2.6.0_openbsd_x86_64.tar.gz.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_openbsd_x86_64.tar.gz.asc) | 228 B | `other` |
 
 ## Popularity
 
@@ -67,8 +95,8 @@ Lowest-scoring checks:
 Install metadata for ssm lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `ssm` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/ssm.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/ssm.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:27:50Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:00:30Z._

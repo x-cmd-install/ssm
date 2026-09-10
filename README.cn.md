@@ -4,7 +4,7 @@
 
 A fast, keyboard-driven TUI that makes your existing ~/.ssh/config delightful to use at fleet scale.
 
-![ssm](https://repo.x-cmd.io/ssm.svg)
+![ssm](https://repo.x-cmd.io/ssm.svg?lang=zh)
 
 ## 安装
 
@@ -22,7 +22,35 @@ x install ssm
 - **最新版本**: `2.6.0` (2026-06-05)
 - **最近提交**: 2026-09-07
 - **Release 含资产**: 24 个
-- **发布时间**: 2026-06-05T12:31:50Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [ssm_2.6.0_checksums.txt](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_checksums.txt) | 1.0 KiB | `other` |
+| [ssm_2.6.0_checksums.txt.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_checksums.txt.asc) | 228 B | `other` |
+| [ssm_2.6.0_darwin_all.tar.gz](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_darwin_all.tar.gz) | 21.7 MiB | `native/darwin/x64` |
+| [ssm_2.6.0_darwin_all.tar.gz.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_darwin_all.tar.gz.asc) | 228 B | `native/darwin/x64` |
+| [ssm_2.6.0_freebsd_arm64.tar.gz](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_freebsd_arm64.tar.gz) | 10.0 MiB | `native/linux/arm64` |
+| [ssm_2.6.0_freebsd_arm64.tar.gz.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_freebsd_arm64.tar.gz.asc) | 228 B | `other` |
+| [ssm_2.6.0_freebsd_x86_64.tar.gz](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_freebsd_x86_64.tar.gz) | 10.9 MiB | `native/linux/x64` |
+| [ssm_2.6.0_freebsd_x86_64.tar.gz.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_freebsd_x86_64.tar.gz.asc) | 228 B | `other` |
+| [ssm_2.6.0_linux_amd64.deb](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_amd64.deb) | 10.9 MiB | `native/linux/x64` |
+| [ssm_2.6.0_linux_amd64.deb.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_amd64.deb.asc) | 228 B | `native/linux/x64` |
+| [ssm_2.6.0_linux_amd64.rpm](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_amd64.rpm) | 10.9 MiB | `native/linux/x64` |
+| [ssm_2.6.0_linux_amd64.rpm.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_amd64.rpm.asc) | 228 B | `native/linux/x64` |
+| [ssm_2.6.0_linux_arm64.deb](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_arm64.deb) | 10.0 MiB | `native/linux/arm64` |
+| [ssm_2.6.0_linux_arm64.deb.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_arm64.deb.asc) | 228 B | `native/linux/arm64` |
+| [ssm_2.6.0_linux_arm64.rpm](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_arm64.rpm) | 10.0 MiB | `native/linux/arm64` |
+| [ssm_2.6.0_linux_arm64.rpm.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_arm64.rpm.asc) | 228 B | `native/linux/arm64` |
+| [ssm_2.6.0_linux_arm64.tar.gz](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_arm64.tar.gz) | 10.0 MiB | `native/linux/arm64` |
+| [ssm_2.6.0_linux_arm64.tar.gz.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_arm64.tar.gz.asc) | 228 B | `native/linux/arm64` |
+| [ssm_2.6.0_linux_x86_64.tar.gz](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_x86_64.tar.gz) | 10.9 MiB | `native/linux/x64` |
+| [ssm_2.6.0_linux_x86_64.tar.gz.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_x86_64.tar.gz.asc) | 228 B | `native/linux/x64` |
+| [ssm_2.6.0_openbsd_arm64.tar.gz](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_openbsd_arm64.tar.gz) | 10.0 MiB | `native/linux/arm64` |
+| [ssm_2.6.0_openbsd_arm64.tar.gz.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_openbsd_arm64.tar.gz.asc) | 228 B | `other` |
+| [ssm_2.6.0_openbsd_x86_64.tar.gz](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_openbsd_x86_64.tar.gz) | 10.9 MiB | `native/linux/x64` |
+| [ssm_2.6.0_openbsd_x86_64.tar.gz.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_openbsd_x86_64.tar.gz.asc) | 228 B | `other` |
 
 ## 流行度
 
@@ -71,4 +99,4 @@ ssm 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:27:51Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:00:31Z._
