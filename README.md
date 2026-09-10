@@ -1,24 +1,74 @@
 # ssm
 
+[中文版本](./README.cn.md)
+
 A fast, keyboard-driven TUI that makes your existing ~/.ssh/config delightful to use at fleet scale.
 
-- **Upstream**: <https://github.com/lfaoro/ssm>
-- **Homepage**: <>
-- **Latest release**: `2.6.0` (2026-06-05)
-- **Last commit**: 2026-09-07
-- **License**: MIT
-- **Stars**: 113 · **Forks**: 7 · **Open issues**: 19 · **Contributors**: 3
+![ssm](https://repo.x-cmd.io/ssm.svg)
 
-## Installation
+## Install
 
 ```sh
 x install ssm
 ```
 
-See <https://x-cmd.com/install/ssm> for details.
+## Source
 
-## Data
+- **Upstream**: <https://github.com/lfaoro/ssm>
+- **License**: MIT
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
+## Release
 
-_Last regenerated: 2026-09-09T18:34:25Z._
+- **Latest**: `2.6.0` (2026-06-05)
+- **Last commit**: 2026-09-07
+- **Assets in release**: 24
+- **Published**: 2026-06-05T12:31:50Z
+
+## Popularity
+
+- **Stars**: 113 · **Forks**: 7 · **Open issues**: 19 · **Contributors**: 3
+
+## Totals (cumulative)
+
+- **Releases**: 31 · **Merged PRs**: 90 · **Open PRs**: 3 · **Closed issues**: 12 · **Open issues**: 7 · **Commits**: 490
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 19 | 3 | 0 | 0 | 20 |
+| 90d | 2026-06-12 | 0 | 59 | 3 | 0 | 0 | 61 |
+| 360d | 2025-09-15 | 17 | 83 | 3 | 2 | 2 | 276 |
+
+## Code size
+
+Total: **7,220** lines of code across **44** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Go | 6,667 | 385 | 1,103 | 31 |
+| Sh | 410 | 27 | 61 | 4 |
+| Makefile | 107 | 9 | 30 | 2 |
+| Nix | 36 | 0 | 3 | 1 |
+| Markdown | 0 | 606 | 202 | 6 |
+
+## OpenSSF Scorecard
+
+Overall score: **7.9 / 10**
+
+Lowest-scoring checks:
+
+- **Code-Review** (0/10) — Found 0/1 approved changesets -- score normalized to 0
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Pinned-Dependencies** (4/10) — dependency not pinned by hash detected -- score normalized to 4
+
+## Improve this data
+
+Install metadata for ssm lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `ssm` is missing, out of date, or installs incorrectly, please open an issue or PR there:
+
+- **Open an issue**: <https://github.com/x-cmd/install/issues/new>
+- **Edit the package entry**: <https://github.com/x-cmd/edit/main/ssm.yml> (or whichever path the index uses)
+
+The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
+
+_Snapshot: `data/card/260910.yml` · 2026-09-10T04:27:50Z._
