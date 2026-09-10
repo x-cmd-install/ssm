@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 11386285,
       "digest": "sha256:e680a7cd9372bcb71eb14d222dee8256dfd23357c401dddbc1750c9c97cf0e0e",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-06-05T12:31:40Z",
       "updated_at": "2026-06-05T12:31:47Z",
       "browser_download_url": "https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_freebsd_x86_64.tar.gz"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 11417004,
       "digest": "sha256:09add1a6a1fcd68d1a04c7e4f2435411b17a44f39ed83707960353518a336dbc",
-      "download_count": 153,
+      "download_count": 154,
       "created_at": "2026-06-05T12:31:41Z",
       "updated_at": "2026-06-05T12:31:47Z",
       "browser_download_url": "https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_x86_64.tar.gz"
