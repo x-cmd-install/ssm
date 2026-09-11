@@ -1,3 +1,37 @@
+- repo: raspbian_testing
+  subrepo: main
+  srcname: ssm
+  binnames:
+    - libssm-dev
+    - libssm-bin
+    - libssm2
+  visiblename: ssm
+  version: 1.4.0
+  origversion: 1.4.0-2
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - andrius.merkys@gmail.com
+    - picca@debian.org
+  categories:
+    - misc
+- repo: trisquel_10_0
+  subrepo: nabia/main
+  srcname: ssm
+  binnames:
+    - libssm-dev
+    - libssm-bin
+    - libssm2
+  visiblename: ssm
+  version: 1.4.0
+  origversion: 1.4.0-1build1
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - andrius.merkys@gmail.com
+    - picca@debian.org
+  categories:
+    - universe/science
 - repo: aur
   srcname: ssm-bin
   binname: ssm-bin
@@ -215,23 +249,6 @@
     - libssm2
   visiblename: ssm
   version: 1.4.0
-  origversion: 1.4.0-1.102
-  status: outdated
-  summary: Secondary Structure Matching
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Productivity/Scientific/Chemistry
-- repo: opensuse_science_tumbleweed
-  srcname: ssm
-  binnames:
-    - ssm
-    - ssm-debuginfo
-    - ssm-debugsource
-    - ssm-devel
-    - libssm2
-  visiblename: ssm
-  version: 1.4.0
   origversion: 1.4.0-1.103
   status: outdated
   summary: Secondary Structure Matching
@@ -375,40 +392,6 @@
     - picca@debian.org
   categories:
     - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: ssm
-  binnames:
-    - libssm-dev
-    - libssm-bin
-    - libssm2
-  visiblename: ssm
-  version: 1.4.0
-  origversion: 1.4.0-2
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - andrius.merkys@gmail.com
-    - picca@debian.org
-  categories:
-    - misc
-- repo: trisquel_10_0
-  subrepo: nabia/main
-  srcname: ssm
-  binnames:
-    - libssm-dev
-    - libssm-bin
-    - libssm2
-  visiblename: ssm
-  version: 1.4.0
-  origversion: 1.4.0-1build1
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - andrius.merkys@gmail.com
-    - picca@debian.org
-  categories:
-    - universe/science
 - repo: trisquel_11_0
   subrepo: aramo/main
   srcname: ssm
