@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 10501246,
       "digest": "sha256:470a5d2d76b8dc96402e991fee4a6862bdd1858523fdc83db47669252d5e28e6",
-      "download_count": 2,
+      "download_count": 4,
       "created_at": "2026-06-05T12:31:40Z",
       "updated_at": "2026-06-05T12:31:48Z",
       "browser_download_url": "https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_arm64.deb"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 10485514,
       "digest": "sha256:c5f443ce965fe8f07f8378f60e9eda35f7ac459cf0112cc5941ca92c14ea47a8",
-      "download_count": 4,
+      "download_count": 7,
       "created_at": "2026-06-05T12:31:41Z",
       "updated_at": "2026-06-05T12:31:47Z",
       "browser_download_url": "https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_arm64.rpm"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 10515575,
       "digest": "sha256:1e8b533784756be380070421fa2a4986ce648390cdbf123e4ad6eae00eda84e4",
-      "download_count": 31,
+      "download_count": 33,
       "created_at": "2026-06-05T12:31:40Z",
       "updated_at": "2026-06-05T12:31:47Z",
       "browser_download_url": "https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_arm64.tar.gz"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 11417004,
       "digest": "sha256:09add1a6a1fcd68d1a04c7e4f2435411b17a44f39ed83707960353518a336dbc",
-      "download_count": 175,
+      "download_count": 180,
       "created_at": "2026-06-05T12:31:41Z",
       "updated_at": "2026-06-05T12:31:47Z",
       "browser_download_url": "https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_x86_64.tar.gz"
