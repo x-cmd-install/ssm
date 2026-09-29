@@ -30,8 +30,8 @@ Overall score: **7.9 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Code-Review** (0/10) — Found 0/1 approved changesets -- score normalized to 0
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Pinned-Dependencies** (4/10) — dependency not pinned by hash detected -- score normalized to 4
 
 ## Source
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `2.6.0` (2026-06-05)
-- **Last commit**: 2026-09-21
+- **Last commit**: 2026-09-28
 - **Assets in release**: 24
 
 ## Popularity
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 31 · **Merged PRs**: 102 · **Open PRs**: 3 · **Closed issues**: 12 · **Open issues**: 7 · **Commits**: 502
+- **Releases**: 31 · **Merged PRs**: 111 · **Open PRs**: 3 · **Closed issues**: 12 · **Open issues**: 7 · **Commits**: 511
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 0 | 20 | 3 | 0 | 0 | 0 |
-| last60d | 2026-07-30 | 0 | 39 | 3 | 0 | 0 | 0 |
-| 90d | 2026-06-30 | 0 | 59 | 3 | 0 | 0 | 0 |
-| last180d | 2026-04-01 | 17 | 95 | 3 | 2 | 2 | 0 |
-| 360d | 2025-10-03 | 17 | 95 | 3 | 2 | 2 | 0 |
-| last720d | 2024-10-08 | 31 | 102 | 3 | 12 | 7 | 502 |
+| 30d | 2026-08-30 | 0 | 29 | 3 | 0 | 0 | 23 |
+| last60d | 2026-07-31 | 0 | 48 | 3 | 0 | 0 | 44 |
+| 90d | 2026-07-01 | 0 | 68 | 3 | 0 | 0 | 66 |
+| last180d | 2026-04-02 | 17 | 104 | 3 | 2 | 2 | 296 |
+| 360d | 2025-10-04 | 17 | 104 | 3 | 2 | 2 | 297 |
+| last720d | 2024-10-09 | 31 | 111 | 3 | 12 | 7 | 511 |
 
 ## Release assets
 
@@ -102,4 +102,4 @@ Install metadata for ssm lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260928.yml` · 2026-09-28T05:17:22Z._
+_Snapshot: `data/card/260929.yml` · 2026-09-29T05:35:24Z._
