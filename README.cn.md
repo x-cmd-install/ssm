@@ -31,8 +31,8 @@ x install ssm
 评分最低的几项:
 
 - **Code-Review** (0/10) — Found 0/1 approved changesets -- score normalized to 0
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Pinned-Dependencies** (4/10) — dependency not pinned by hash detected -- score normalized to 4
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## 源代码
 
@@ -57,12 +57,12 @@ x install ssm
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 0 | 22 | 3 | 0 | 0 | 21 |
-| last60d | 2026-08-06 | 0 | 44 | 3 | 0 | 0 | 41 |
-| 90d | 2026-07-07 | 0 | 63 | 3 | 0 | 0 | 63 |
-| last180d | 2026-04-08 | 17 | 104 | 3 | 2 | 2 | 296 |
-| 360d | 2025-10-10 | 17 | 104 | 3 | 2 | 2 | 297 |
-| last720d | 2024-10-15 | 31 | 111 | 3 | 12 | 7 | 511 |
+| 30d | 2026-09-06 | 0 | 22 | 3 | 0 | 0 | 21 |
+| last60d | 2026-08-07 | 0 | 44 | 3 | 0 | 0 | 41 |
+| 90d | 2026-07-08 | 0 | 63 | 3 | 0 | 0 | 63 |
+| last180d | 2026-04-09 | 17 | 104 | 3 | 2 | 2 | 296 |
+| 360d | 2025-10-11 | 17 | 104 | 3 | 2 | 2 | 297 |
+| last720d | 2024-10-16 | 31 | 111 | 3 | 12 | 7 | 511 |
 
 ## Release 资产
 
@@ -102,4 +102,4 @@ ssm 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261005.yml` · 2026-10-05T05:25:06Z._
+_数据快照: `data/card/261006.yml` · 2026-10-06T06:08:44Z._
