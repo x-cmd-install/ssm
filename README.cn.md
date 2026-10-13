@@ -26,13 +26,13 @@ x install ssm
 
 ## OpenSSF Scorecard 评分
 
-总评分: **7.9 / 10**
+总评分: **7.5 / 10**
 
 评分最低的几项:
 
 - **Code-Review** (0/10) — Found 0/1 approved changesets -- score normalized to 0
-- **Pinned-Dependencies** (4/10) — dependency not pinned by hash detected -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Pinned-Dependencies** (4/10) — dependency not pinned by hash detected -- score normalized to 4
 
 ## 源代码
 
@@ -57,12 +57,12 @@ x install ssm
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-12 | 0 | 21 | 2 | 0 | 0 | 15 |
-| last60d | 2026-08-13 | 0 | 40 | 3 | 0 | 0 | 35 |
-| 90d | 2026-07-14 | 0 | 57 | 3 | 0 | 0 | 56 |
-| last180d | 2026-04-15 | 17 | 104 | 3 | 2 | 2 | 296 |
-| 360d | 2025-10-17 | 17 | 104 | 3 | 2 | 2 | 297 |
-| last720d | 2024-10-22 | 31 | 111 | 3 | 12 | 7 | 511 |
+| 30d | 2026-09-13 | 0 | 21 | 2 | 0 | 0 | 15 |
+| last60d | 2026-08-14 | 0 | 40 | 3 | 0 | 0 | 35 |
+| 90d | 2026-07-15 | 0 | 57 | 3 | 0 | 0 | 56 |
+| last180d | 2026-04-16 | 17 | 104 | 3 | 2 | 2 | 296 |
+| 360d | 2025-10-18 | 17 | 104 | 3 | 2 | 2 | 297 |
+| last720d | 2024-10-23 | 31 | 111 | 3 | 12 | 7 | 511 |
 
 ## Release 资产
 
@@ -102,4 +102,4 @@ ssm 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261012.yml` · 2026-10-12T05:46:09Z._
+_数据快照: `data/card/261013.yml` · 2026-10-13T06:40:36Z._
