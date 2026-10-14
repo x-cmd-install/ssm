@@ -42,7 +42,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `2.6.0` (2026-06-05)
-- **Last commit**: 2026-09-28
+- **Last commit**: 2026-10-14
 - **Assets in release**: 24
 
 ## Popularity
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 31 · **Merged PRs**: 111 · **Open PRs**: 3 · **Closed issues**: 12 · **Open issues**: 7 · **Commits**: 511
+- **Releases**: 31 · **Merged PRs**: 119 · **Open PRs**: 6 · **Closed issues**: 12 · **Open issues**: 7 · **Commits**: 519
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 21 | 2 | 0 | 0 | 15 |
-| last60d | 2026-08-14 | 0 | 40 | 3 | 0 | 0 | 35 |
-| 90d | 2026-07-15 | 0 | 57 | 3 | 0 | 0 | 56 |
-| last180d | 2026-04-16 | 17 | 104 | 3 | 2 | 2 | 296 |
-| 360d | 2025-10-18 | 17 | 104 | 3 | 2 | 2 | 297 |
-| last720d | 2024-10-23 | 31 | 111 | 3 | 12 | 7 | 511 |
+| 30d | 2026-09-14 | 0 | 23 | 5 | 0 | 0 | 0 |
+| last60d | 2026-08-15 | 0 | 48 | 6 | 0 | 0 | 0 |
+| 90d | 2026-07-16 | 0 | 65 | 6 | 0 | 0 | 0 |
+| last180d | 2026-04-17 | 17 | 112 | 6 | 2 | 2 | 0 |
+| 360d | 2025-10-19 | 17 | 112 | 6 | 2 | 2 | 0 |
+| last720d | 2024-10-24 | 31 | 119 | 6 | 12 | 7 | 519 |
 
 ## Release assets
 
@@ -102,4 +102,4 @@ Install metadata for ssm lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T06:40:35Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T04:42:48Z._
