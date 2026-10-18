@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-17 | 0 | 23 | 5 | 0 | 0 | 23 |
-| last60d | 2026-08-18 | 0 | 43 | 6 | 0 | 0 | 43 |
-| 90d | 2026-07-19 | 0 | 65 | 6 | 0 | 0 | 64 |
-| last180d | 2026-04-20 | 17 | 112 | 6 | 2 | 2 | 304 |
-| 360d | 2025-10-22 | 17 | 112 | 6 | 2 | 2 | 305 |
-| last720d | 2024-10-27 | 31 | 119 | 6 | 12 | 7 | 519 |
+| 30d | 2026-09-18 | 0 | 23 | 5 | 0 | 0 | 17 |
+| last60d | 2026-08-19 | 0 | 43 | 6 | 0 | 0 | 40 |
+| 90d | 2026-07-20 | 0 | 62 | 6 | 0 | 0 | 62 |
+| last180d | 2026-04-21 | 17 | 112 | 6 | 2 | 2 | 304 |
+| 360d | 2025-10-23 | 17 | 112 | 6 | 2 | 2 | 305 |
+| last720d | 2024-10-28 | 31 | 119 | 6 | 12 | 7 | 519 |
 
 ## Release assets
 
@@ -102,4 +102,4 @@ Install metadata for ssm lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261017.yml` · 2026-10-17T04:11:08Z._
+_Snapshot: `data/card/261018.yml` · 2026-10-18T04:18:52Z._
