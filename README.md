@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 22 | 4 | 0 | 0 | 22 |
-| last60d | 2026-08-23 | 0 | 48 | 5 | 0 | 0 | 45 |
-| 90d | 2026-07-24 | 0 | 67 | 5 | 0 | 0 | 67 |
-| last180d | 2026-04-25 | 17 | 117 | 5 | 2 | 2 | 309 |
-| 360d | 2025-10-27 | 17 | 117 | 5 | 2 | 2 | 310 |
-| last720d | 2024-11-01 | 31 | 124 | 5 | 12 | 7 | 524 |
+| 30d | 2026-09-23 | 0 | 22 | 4 | 0 | 0 | 22 |
+| last60d | 2026-08-24 | 0 | 42 | 5 | 0 | 0 | 45 |
+| 90d | 2026-07-25 | 0 | 67 | 5 | 0 | 0 | 67 |
+| last180d | 2026-04-26 | 17 | 117 | 5 | 2 | 2 | 309 |
+| 360d | 2025-10-28 | 17 | 117 | 5 | 2 | 2 | 310 |
+| last720d | 2024-11-02 | 31 | 124 | 5 | 12 | 7 | 524 |
 
 ## Release assets
 
@@ -93,6 +93,18 @@ Lowest-scoring checks:
 | [ssm_2.6.0_openbsd_x86_64.tar.gz](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_openbsd_x86_64.tar.gz) | 10.9 MiB | `native/linux/x64` |
 | [ssm_2.6.0_openbsd_x86_64.tar.gz.asc](https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_openbsd_x86_64.tar.gz.asc) | 228 B | `other` |
 
+## Distribution status
+
+Reported by **35** distros on [repology.org](https://repology.org/project/ssm). **1** are ✅ on the latest upstream release, **34** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.4.0` | ⚠️ outdated |
+| Debian 14 | `1.4.0` | ⚠️ outdated |
+| Debian 13 | `1.4.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.4.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.4.0` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for ssm lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `ssm` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -102,4 +114,4 @@ Install metadata for ssm lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T04:28:24Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T04:34:38Z._
