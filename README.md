@@ -26,7 +26,7 @@ Total: **7,220** lines of code across **44** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **8.2 / 10**
+Overall score: **8.6 / 10**
 
 Lowest-scoring checks:
 
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `2.6.0` (2026-06-05)
-- **Last commit**: 2026-10-19
+- **Last commit**: 2026-10-26
 - **Assets in release**: 24
 
 ## Popularity
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 31 · **Merged PRs**: 124 · **Open PRs**: 5 · **Closed issues**: 12 · **Open issues**: 7 · **Commits**: 524
+- **Releases**: 31 · **Merged PRs**: 131 · **Open PRs**: 6 · **Closed issues**: 12 · **Open issues**: 7 · **Commits**: 531
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 22 | 4 | 0 | 0 | 13 |
-| last60d | 2026-08-27 | 0 | 42 | 5 | 0 | 0 | 36 |
-| 90d | 2026-07-28 | 0 | 61 | 5 | 0 | 0 | 61 |
-| last180d | 2026-04-29 | 17 | 117 | 5 | 2 | 2 | 280 |
-| 360d | 2025-10-31 | 17 | 117 | 5 | 2 | 2 | 310 |
-| last720d | 2024-11-05 | 31 | 124 | 5 | 12 | 7 | 524 |
+| 30d | 2026-09-27 | 0 | 29 | 5 | 0 | 0 | 19 |
+| last60d | 2026-08-28 | 0 | 49 | 6 | 0 | 0 | 42 |
+| 90d | 2026-07-29 | 0 | 68 | 6 | 0 | 0 | 67 |
+| last180d | 2026-04-30 | 14 | 124 | 6 | 2 | 2 | 286 |
+| 360d | 2025-11-01 | 17 | 124 | 6 | 2 | 2 | 316 |
+| last720d | 2024-11-06 | 31 | 131 | 6 | 12 | 7 | 531 |
 
 ## Release assets
 
@@ -114,4 +114,4 @@ Install metadata for ssm lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T04:31:00Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T04:50:11Z._
