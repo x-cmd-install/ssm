@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 11406339,
       "digest": "sha256:8d1e7ee30dcd742d7ed8a570631bba91cc7d78dff3dca2441a802ffea1a2a19a",
-      "download_count": 5,
+      "download_count": 6,
       "created_at": "2026-06-05T12:31:40Z",
       "updated_at": "2026-06-05T12:31:46Z",
       "browser_download_url": "https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_amd64.rpm"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 11417004,
       "digest": "sha256:09add1a6a1fcd68d1a04c7e4f2435411b17a44f39ed83707960353518a336dbc",
-      "download_count": 287,
+      "download_count": 288,
       "created_at": "2026-06-05T12:31:41Z",
       "updated_at": "2026-06-05T12:31:47Z",
       "browser_download_url": "https://github.com/lfaoro/ssm/releases/download/2.6.0/ssm_2.6.0_linux_x86_64.tar.gz"
