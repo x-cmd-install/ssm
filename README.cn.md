@@ -24,16 +24,6 @@ x install ssm
 | Nix | 36 | 0 | 3 | 1 |
 | Markdown | 0 | 606 | 202 | 6 |
 
-## OpenSSF Scorecard 评分
-
-总评分: **8.5 / 10**
-
-评分最低的几项:
-
-- **Code-Review** (-1/10) — Found no human activity in the last 30 changesets
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Pinned-Dependencies** (4/10) — dependency not pinned by hash detected -- score normalized to 4
-
 ## 源代码
 
 - **上游仓库**: <https://github.com/lfaoro/ssm>
@@ -42,7 +32,7 @@ x install ssm
 ## 发布
 
 - **最新版本**: `2.6.0` (2026-06-05)
-- **最近提交**: 2026-11-02
+- **最近提交**: 2026-11-09
 - **Release 含资产**: 24 个
 
 ## 流行度
@@ -51,18 +41,18 @@ x install ssm
 
 ## 累计统计
 
-- **发布数**: 31 · **已合并 PR**: 136 · **开放 PR**: 6 · **已关闭 issue**: 12 · **开放 issue**: 7 · **提交数**: 536
+- **发布数**: 31 · **已合并 PR**: 139 · **开放 PR**: 7 · **已关闭 issue**: 12 · **开放 issue**: 7 · **提交数**: 539
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 0 | 25 | 5 | 0 | 0 | 15 |
-| last60d | 2026-09-10 | 0 | 46 | 5 | 0 | 0 | 38 |
-| 90d | 2026-08-11 | 0 | 65 | 6 | 0 | 0 | 64 |
-| last180d | 2026-05-13 | 13 | 126 | 6 | 2 | 2 | 179 |
-| 360d | 2025-11-14 | 17 | 129 | 6 | 2 | 2 | 320 |
-| last720d | 2024-11-19 | 31 | 136 | 6 | 12 | 7 | 536 |
+| 30d | 2026-10-11 | 0 | 28 | 6 | 0 | 0 | 18 |
+| last60d | 2026-09-11 | 0 | 49 | 6 | 0 | 0 | 41 |
+| 90d | 2026-08-12 | 0 | 68 | 7 | 0 | 0 | 67 |
+| last180d | 2026-05-14 | 13 | 129 | 7 | 2 | 2 | 182 |
+| 360d | 2025-11-15 | 17 | 132 | 7 | 2 | 2 | 323 |
+| last720d | 2024-11-20 | 31 | 139 | 7 | 12 | 7 | 539 |
 
 ## Release 资产
 
@@ -114,4 +104,4 @@ ssm 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261109.yml` · 2026-11-09T06:00:30Z._
+_数据快照: `data/card/261110.yml` · 2026-11-10T07:05:46Z._
