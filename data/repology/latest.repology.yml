@@ -1,18 +1,3 @@
-- repo: deepin_unstable
-  subrepo: main
-  srcname: ssm
-  binnames:
-    - libssm-dev
-    - libssm-bin
-    - libssm2
-  visiblename: ssm
-  version: 1.4.0
-  origversion: 1.4.0-1
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - andrius.merkys@gmail.com
-    - picca@debian.org
 - repo: aur
   srcname: ssm-bin
   binname: ssm-bin
@@ -25,56 +10,6 @@
     - leonardo@aur
   licenses:
     - MIT
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: ssm
-  binnames:
-    - libssm-dev
-    - libssm1
-    - libssm1-dbg
-  visiblename: ssm
-  version: "1.3"
-  origversion: 1.3-2.2
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - picca@debian.org
-  categories:
-    - universe/science
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: ssm
-  binnames:
-    - libssm-dev
-    - libssm-bin
-    - libssm2
-  visiblename: ssm
-  version: 1.4.0
-  origversion: 1.4.0-2
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - andrius.merkys@gmail.com
-    - picca@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: ssm
-  binnames:
-    - libssm-dev
-    - libssm-bin
-    - libssm2
-  visiblename: ssm
-  version: 1.4.0
-  origversion: 1.4.0-2
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - andrius.merkys@gmail.com
-    - picca@debian.org
-  categories:
-    - misc
 - repo: debian_11
   subrepo: bullseye/main
   srcname: ssm
@@ -143,6 +78,20 @@
     - picca@debian.org
   categories:
     - misc
+- repo: ubuntu_14_04
+  subrepo: trusty/universe
+  srcname: ssm
+  binnames:
+    - libssm-dev
+    - libssm0
+  visiblename: ssm
+  version: "1.1"
+  origversion: 1.1-0ubuntu1
+  status: outdated
+  maintainers:
+    - mok0@ubuntu.com
+  categories:
+    - universe/science
 - repo: debian_unstable
   subrepo: sid/main
   srcname: ssm
@@ -160,17 +109,55 @@
     - picca@debian.org
   categories:
     - misc
-- repo: epel_6
+- repo: deepin_unstable
+  subrepo: main
   srcname: ssm
+  binnames:
+    - libssm-dev
+    - libssm-bin
+    - libssm2
   visiblename: ssm
-  version: "1.0"
-  origversion: 1.0-2.el6
+  version: 1.4.0
+  origversion: 1.4.0-1
   status: outdated
-  summary: Macromolecular coordinate superposition library
-  licenses:
-    - LGPLv2+
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - andrius.merkys@gmail.com
+    - picca@debian.org
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: ssm
+  binnames:
+    - libssm-dev
+    - libssm-bin
+    - libssm2
+  visiblename: ssm
+  version: 1.4.0
+  origversion: 1.4.0-2
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - andrius.merkys@gmail.com
+    - picca@debian.org
   categories:
-    - System Environment/Libraries
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: ssm
+  binnames:
+    - libssm-dev
+    - libssm-bin
+    - libssm2
+  visiblename: ssm
+  version: 1.4.0
+  origversion: 1.4.0-2
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - andrius.merkys@gmail.com
+    - picca@debian.org
+  categories:
+    - misc
 - repo: epel_7
   srcname: ssm
   visiblename: ssm
@@ -391,20 +378,6 @@
     - picca@debian.org
   categories:
     - misc
-- repo: ubuntu_14_04
-  subrepo: trusty/universe
-  srcname: ssm
-  binnames:
-    - libssm-dev
-    - libssm0
-  visiblename: ssm
-  version: "1.1"
-  origversion: 1.1-0ubuntu1
-  status: outdated
-  maintainers:
-    - mok0@ubuntu.com
-  categories:
-    - universe/science
 - repo: ubuntu_16_04
   subrepo: xenial/universe
   srcname: ssm
@@ -415,6 +388,22 @@
   visiblename: ssm
   version: "1.3"
   origversion: 1.3-2.1
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - picca@debian.org
+  categories:
+    - universe/science
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: ssm
+  binnames:
+    - libssm-dev
+    - libssm1
+    - libssm1-dbg
+  visiblename: ssm
+  version: "1.3"
+  origversion: 1.3-2.2
   status: outdated
   maintainers:
     - debian-science-maintainers@lists.alioth.debian.org
