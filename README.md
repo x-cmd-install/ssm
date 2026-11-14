@@ -24,6 +24,16 @@ Total: **7,220** lines of code across **44** files in the top 5 languages.
 | Nix | 36 | 0 | 3 | 1 |
 | Markdown | 0 | 606 | 202 | 6 |
 
+## OpenSSF Scorecard
+
+Overall score: **8.5 / 10**
+
+Lowest-scoring checks:
+
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (-1/10) — Found no human activity in the last 30 changesets
+- **Pinned-Dependencies** (4/10) — dependency not pinned by hash detected -- score normalized to 4
+
 ## Source
 
 - **Upstream**: <https://github.com/lfaoro/ssm>
@@ -47,12 +57,12 @@ Total: **7,220** lines of code across **44** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 0 | 20 | 5 | 0 | 0 | 18 |
-| last60d | 2026-09-14 | 0 | 43 | 6 | 0 | 0 | 41 |
-| 90d | 2026-08-15 | 0 | 68 | 7 | 0 | 0 | 67 |
-| last180d | 2026-05-17 | 12 | 127 | 7 | 2 | 2 | 182 |
-| 360d | 2025-11-18 | 17 | 132 | 7 | 2 | 2 | 323 |
-| last720d | 2024-11-23 | 31 | 139 | 7 | 12 | 7 | 539 |
+| 30d | 2026-10-15 | 0 | 20 | 5 | 0 | 0 | 18 |
+| last60d | 2026-09-15 | 0 | 43 | 6 | 0 | 0 | 41 |
+| 90d | 2026-08-16 | 0 | 68 | 7 | 0 | 0 | 67 |
+| last180d | 2026-05-18 | 9 | 125 | 7 | 2 | 2 | 182 |
+| 360d | 2025-11-19 | 17 | 132 | 7 | 2 | 2 | 323 |
+| last720d | 2024-11-24 | 31 | 139 | 7 | 12 | 7 | 539 |
 
 ## Release assets
 
@@ -85,7 +95,7 @@ Total: **7,220** lines of code across **44** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **35** distros on [repology.org](https://repology.org/project/ssm). **1** are ✅ on the latest upstream release, **34** are ⚠️ on an older version.
+Reported by **36** distros on [repology.org](https://repology.org/project/ssm). **1** are ✅ on the latest upstream release, **35** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -104,4 +114,4 @@ Install metadata for ssm lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261113.yml` · 2026-11-13T06:24:52Z._
+_Snapshot: `data/card/261114.yml` · 2026-11-14T06:06:45Z._
