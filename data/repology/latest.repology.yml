@@ -1,3 +1,37 @@
+- repo: parrot
+  subrepo: parrot/main
+  srcname: ssm
+  binnames:
+    - libssm-dev
+    - libssm-bin
+    - libssm2
+  visiblename: ssm
+  version: 1.4.0
+  origversion: 1.4.0-2
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - andrius.merkys@gmail.com
+    - picca@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: ssm
+  binnames:
+    - libssm-dev
+    - libssm-bin
+    - libssm2
+  visiblename: ssm
+  version: 1.4.0
+  origversion: 1.4.0-2
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - andrius.merkys@gmail.com
+    - picca@debian.org
+  categories:
+    - misc
 - repo: aur
   srcname: ssm-bin
   binname: ssm-bin
@@ -78,20 +112,6 @@
     - picca@debian.org
   categories:
     - misc
-- repo: ubuntu_14_04
-  subrepo: trusty/universe
-  srcname: ssm
-  binnames:
-    - libssm-dev
-    - libssm0
-  visiblename: ssm
-  version: "1.1"
-  origversion: 1.1-0ubuntu1
-  status: outdated
-  maintainers:
-    - mok0@ubuntu.com
-  categories:
-    - universe/science
 - repo: debian_unstable
   subrepo: sid/main
   srcname: ssm
@@ -225,42 +245,25 @@
     - GPL-3.0-or-later
   categories:
     - Productivity/Scientific/Chemistry
+- repo: opensuse_science_tumbleweed
+  srcname: ssm
+  binnames:
+    - ssm
+    - ssm-debuginfo
+    - ssm-debugsource
+    - ssm-devel
+    - libssm2
+  visiblename: ssm
+  version: 1.4.0
+  origversion: 1.4.0-1.108
+  status: outdated
+  summary: Secondary Structure Matching
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Productivity/Scientific/Chemistry
 - repo: pardus_21
   subrepo: main
-  srcname: ssm
-  binnames:
-    - libssm-dev
-    - libssm-bin
-    - libssm2
-  visiblename: ssm
-  version: 1.4.0
-  origversion: 1.4.0-2
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - andrius.merkys@gmail.com
-    - picca@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: ssm
-  binnames:
-    - libssm-dev
-    - libssm-bin
-    - libssm2
-  visiblename: ssm
-  version: 1.4.0
-  origversion: 1.4.0-2
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - andrius.merkys@gmail.com
-    - picca@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
   srcname: ssm
   binnames:
     - libssm-dev
@@ -378,6 +381,20 @@
     - picca@debian.org
   categories:
     - misc
+- repo: ubuntu_14_04
+  subrepo: trusty/universe
+  srcname: ssm
+  binnames:
+    - libssm-dev
+    - libssm0
+  visiblename: ssm
+  version: "1.1"
+  origversion: 1.1-0ubuntu1
+  status: outdated
+  maintainers:
+    - mok0@ubuntu.com
+  categories:
+    - universe/science
 - repo: ubuntu_16_04
   subrepo: xenial/universe
   srcname: ssm
