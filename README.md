@@ -47,12 +47,12 @@ Total: **7,220** lines of code across **44** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 0 | 20 | 5 | 0 | 0 | 13 |
-| last60d | 2026-09-16 | 0 | 43 | 6 | 0 | 0 | 35 |
-| 90d | 2026-08-17 | 0 | 63 | 7 | 0 | 0 | 61 |
-| last180d | 2026-05-19 | 7 | 121 | 7 | 2 | 2 | 147 |
-| 360d | 2025-11-20 | 17 | 132 | 7 | 2 | 2 | 323 |
-| last720d | 2024-11-25 | 31 | 139 | 7 | 12 | 7 | 539 |
+| 30d | 2026-10-17 | 0 | 20 | 5 | 0 | 0 | 13 |
+| last60d | 2026-09-17 | 0 | 43 | 6 | 0 | 0 | 35 |
+| 90d | 2026-08-18 | 0 | 63 | 7 | 0 | 0 | 61 |
+| last180d | 2026-05-20 | 7 | 121 | 7 | 2 | 0 | 147 |
+| 360d | 2025-11-21 | 17 | 132 | 7 | 2 | 2 | 323 |
+| last720d | 2024-11-26 | 31 | 139 | 7 | 12 | 7 | 539 |
 
 ## Release assets
 
@@ -104,4 +104,4 @@ Install metadata for ssm lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T06:11:20Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T06:13:22Z._
