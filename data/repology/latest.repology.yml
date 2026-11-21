@@ -1,37 +1,16 @@
-- repo: parrot
-  subrepo: parrot/main
+- repo: yacp
   srcname: ssm
   binnames:
-    - libssm-dev
-    - libssm-bin
+    - ssm
     - libssm2
+    - libssm-devel
   visiblename: ssm
-  version: 1.4.0
-  origversion: 1.4.0-2
+  version: "1.4"
+  origversion: null
   status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - andrius.merkys@gmail.com
-    - picca@debian.org
+  summary: Macromolecular superposition library
   categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: ssm
-  binnames:
-    - libssm-dev
-    - libssm-bin
-    - libssm2
-  visiblename: ssm
-  version: 1.4.0
-  origversion: 1.4.0-2
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - andrius.merkys@gmail.com
-    - picca@debian.org
-  categories:
-    - misc
+    - Libs
 - repo: aur
   srcname: ssm-bin
   binname: ssm-bin
@@ -129,21 +108,6 @@
     - picca@debian.org
   categories:
     - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: ssm
-  binnames:
-    - libssm-dev
-    - libssm-bin
-    - libssm2
-  visiblename: ssm
-  version: 1.4.0
-  origversion: 1.4.0-1
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - andrius.merkys@gmail.com
-    - picca@debian.org
 - repo: devuan_4_0
   subrepo: chimaera/main
   srcname: ssm
@@ -238,23 +202,6 @@
     - libssm2
   visiblename: ssm
   version: 1.4.0
-  origversion: 1.4.0-1.107
-  status: outdated
-  summary: Secondary Structure Matching
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Productivity/Scientific/Chemistry
-- repo: opensuse_science_tumbleweed
-  srcname: ssm
-  binnames:
-    - ssm
-    - ssm-debuginfo
-    - ssm-debugsource
-    - ssm-devel
-    - libssm2
-  visiblename: ssm
-  version: 1.4.0
   origversion: 1.4.0-1.108
   status: outdated
   summary: Secondary Structure Matching
@@ -264,6 +211,40 @@
     - Productivity/Scientific/Chemistry
 - repo: pardus_21
   subrepo: main
+  srcname: ssm
+  binnames:
+    - libssm-dev
+    - libssm-bin
+    - libssm2
+  visiblename: ssm
+  version: 1.4.0
+  origversion: 1.4.0-2
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - andrius.merkys@gmail.com
+    - picca@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: ssm
+  binnames:
+    - libssm-dev
+    - libssm-bin
+    - libssm2
+  visiblename: ssm
+  version: 1.4.0
+  origversion: 1.4.0-2
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - andrius.merkys@gmail.com
+    - picca@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
   srcname: ssm
   binnames:
     - libssm-dev
@@ -563,16 +544,3 @@
     - picca@debian.org
   categories:
     - universe/science
-- repo: yacp
-  srcname: ssm
-  binnames:
-    - ssm
-    - libssm2
-    - libssm-devel
-  visiblename: ssm
-  version: "1.4"
-  origversion: null
-  status: outdated
-  summary: Macromolecular superposition library
-  categories:
-    - Libs
