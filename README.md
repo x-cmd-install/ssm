@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 21 | 3 | 0 | 0 | 17 |
-| last60d | 2026-09-21 | 0 | 43 | 4 | 0 | 0 | 39 |
-| 90d | 2026-08-22 | 0 | 69 | 5 | 0 | 0 | 65 |
-| last180d | 2026-05-24 | 6 | 126 | 5 | 0 | 0 | 151 |
-| 360d | 2025-11-25 | 17 | 138 | 5 | 2 | 2 | 327 |
-| last720d | 2024-11-30 | 31 | 145 | 5 | 12 | 7 | 545 |
+| 30d | 2026-10-22 | 0 | 21 | 3 | 0 | 0 | 17 |
+| last60d | 2026-09-22 | 0 | 43 | 4 | 0 | 0 | 39 |
+| 90d | 2026-08-23 | 0 | 69 | 5 | 0 | 0 | 65 |
+| last180d | 2026-05-25 | 5 | 125 | 5 | 0 | 0 | 151 |
+| 360d | 2025-11-26 | 17 | 138 | 5 | 2 | 2 | 327 |
+| last720d | 2024-12-01 | 31 | 145 | 5 | 12 | 7 | 545 |
 
 ## Release assets
 
@@ -95,7 +95,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **36** distros on [repology.org](https://repology.org/project/ssm). **1** are ✅ on the latest upstream release, **35** are ⚠️ on an older version.
+Reported by **34** distros on [repology.org](https://repology.org/project/ssm). **1** are ✅ on the latest upstream release, **33** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -114,4 +114,4 @@ Install metadata for ssm lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T07:06:09Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T06:54:58Z._
