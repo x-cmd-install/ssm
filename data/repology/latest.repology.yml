@@ -1,16 +1,54 @@
-- repo: yacp
+- repo: raspbian_oldstable
+  subrepo: main
   srcname: ssm
   binnames:
-    - ssm
+    - libssm-dev
+    - libssm-bin
     - libssm2
-    - libssm-devel
   visiblename: ssm
-  version: "1.4"
-  origversion: null
+  version: 1.4.0
+  origversion: 1.4.0-2
   status: outdated
-  summary: Macromolecular superposition library
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - andrius.merkys@gmail.com
+    - picca@debian.org
   categories:
-    - Libs
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: ssm
+  binnames:
+    - libssm-dev
+    - libssm-bin
+    - libssm2
+  visiblename: ssm
+  version: 1.4.0
+  origversion: 1.4.0-2
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - andrius.merkys@gmail.com
+    - picca@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: ssm
+  binnames:
+    - libssm-dev
+    - libssm-bin
+    - libssm2
+  visiblename: ssm
+  version: 1.4.0
+  origversion: 1.4.0-2
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - andrius.merkys@gmail.com
+    - picca@debian.org
+  categories:
+    - misc
 - repo: aur
   srcname: ssm-bin
   binname: ssm-bin
@@ -23,6 +61,23 @@
     - leonardo@aur
   licenses:
     - MIT
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: ssm
+  binnames:
+    - libssm-bin
+    - libssm-dev
+    - libssm2
+  visiblename: ssm
+  version: 1.4.0
+  origversion: 1.4.0-2
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - andrius.merkys@gmail.com
+    - picca@debian.org
+  categories:
+    - science
 - repo: debian_11
   subrepo: bullseye/main
   srcname: ssm
@@ -260,23 +315,6 @@
     - picca@debian.org
   categories:
     - misc
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: ssm
-  binnames:
-    - libssm-bin
-    - libssm-dev
-    - libssm2
-  visiblename: ssm
-  version: 1.4.0
-  origversion: 1.4.0-1
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - andrius.merkys@gmail.com
-    - picca@debian.org
-  categories:
-    - science
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: ssm
@@ -294,74 +332,6 @@
     - picca@debian.org
   categories:
     - science
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: ssm
-  binnames:
-    - libssm-bin
-    - libssm-dev
-    - libssm2
-  visiblename: ssm
-  version: 1.4.0
-  origversion: 1.4.0-2
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - andrius.merkys@gmail.com
-    - picca@debian.org
-  categories:
-    - science
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: ssm
-  binnames:
-    - libssm-dev
-    - libssm-bin
-    - libssm2
-  visiblename: ssm
-  version: 1.4.0
-  origversion: 1.4.0-2
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - andrius.merkys@gmail.com
-    - picca@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: ssm
-  binnames:
-    - libssm-dev
-    - libssm-bin
-    - libssm2
-  visiblename: ssm
-  version: 1.4.0
-  origversion: 1.4.0-2
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - andrius.merkys@gmail.com
-    - picca@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: ssm
-  binnames:
-    - libssm-dev
-    - libssm-bin
-    - libssm2
-  visiblename: ssm
-  version: 1.4.0
-  origversion: 1.4.0-2
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - andrius.merkys@gmail.com
-    - picca@debian.org
-  categories:
-    - misc
 - repo: ubuntu_14_04
   subrepo: trusty/universe
   srcname: ssm
@@ -544,3 +514,16 @@
     - picca@debian.org
   categories:
     - universe/science
+- repo: yacp
+  srcname: ssm
+  binnames:
+    - ssm
+    - libssm2
+    - libssm-devel
+  visiblename: ssm
+  version: "1.4"
+  origversion: null
+  status: outdated
+  summary: Macromolecular superposition library
+  categories:
+    - Libs
